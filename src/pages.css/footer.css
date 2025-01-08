@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container2 {
+    background: rgb(45, 71, 95);
+    width: 100%;
+    padding: 0; /* Ensure no extra padding */
+    /* position: relative; */
+   
+   margin-top: 55px;
+    
+}
+
+.nav-container2 {
+    display: flex;                    /* Use flex layout */
+    align-items: center;              /* Vertically center the items */
+    /* width: 100%;                      Ensure the container is full width */
+    list-style-type: none;            /* Remove default bullet points */
+    padding: 0;                       /* Remove default padding */
+    margin: 0;
+    justify-content: space-between;                        /* Remove default margin */
+}
+
+.nav-item2 {
+    list-style-type: none;
+    
+    cursor: pointer;
+    text-decoration: none;            /* Reset any text decoration */
+}
+.footer {
+  background-color: #232323; /* Dark background */
+  color: #ffffff; /* White text */
+}
+
+.footer h5 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #f8d90f; /* Highlight color for hover effects */
+}
+
+@media (max-width: 768px) {
+  .footer ul {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer h5 {
+    font-size: 1rem;
+  }
+}

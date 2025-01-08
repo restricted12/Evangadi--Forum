@@ -1,0 +1,34 @@
+/* General Reset */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(../Materials/Screenshot_26-12-2024_3852_.jpeg);
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #333;
+  
+  }
+  
+    
+    /* Main Container */
+    section {
+      display: flex;
+      justify-content: space-between;
+      /* align-items: flex-start; */
+     
+      
+      max-width:800px;
+      
+     
+    }
+    
+    /* First Container (Form Section) */
+    
+    .first_container button{
+       padding-bottom: -10px;
+    }
+    /* .discription{
+      margin-top: 40px;
+    } */
+  

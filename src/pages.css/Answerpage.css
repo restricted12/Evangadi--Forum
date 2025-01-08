@@ -1,0 +1,33 @@
+.community-answers-box {
+    max-height: 150px; /* Restricts the box's maximum height */
+    border: 1px solid #ccc; /* Adds a light border for better visibility */
+    padding: 10px; /* Provides internal spacing */
+    background-color: #f9f9f9; /* Sets a subtle background color */
+    border-radius: 5px; /* Gives rounded corners */
+    resize: none; /* Prevents manual resizing */
+    overflow-y: auto; /* Adds vertical scrolling for overflow content */
+    overflow-x: hidden; /* Hides horizontal overflow (optional) */
+}
+
+.answer-community {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .answer-community .me-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .answer-community strong {
+    margin-top: 5px;
+    font-size: 14px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .answer-community p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  

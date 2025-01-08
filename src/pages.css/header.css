@@ -1,0 +1,25 @@
+.container {
+    background-color: white;
+    width: 100%;
+    padding: 0; /* Ensure no extra padding */
+    /* position: sticky; */
+    z-index: 1;
+    top: 0;
+    
+}
+
+.nav-container {
+    display: flex;                    /* Use flex layout */
+       
+    align-items: center;              /* Vertically center the items */
+    width: 100%;                      /* Ensure the container is full width */
+    list-style-type: none;            /* Remove default bullet points */
+    padding: 0;                       /* Remove default padding */
+    margin: 0;                        /* Remove default margin */
+}
+
+.nav-item {
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;            /* Reset any text decoration */
+}
